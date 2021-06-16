@@ -1,0 +1,18 @@
+npm i --D jest @types/jest
+to run ts files--> npm run build
+to run jest files --> npm run test
+
+
+syntax for testing
+test('description', () => {
+
+})
+
+
+npm i -D jest ts-jest @types/jest -->to make only ts files to run
+
+npx ts-jest config:init ---> jest coiguration
+
+inside jest.config .js file add --> testPathIgnorePatterns : [
+    "<rootDir>/bin/"
+  ]//igonre the files present in this folder
